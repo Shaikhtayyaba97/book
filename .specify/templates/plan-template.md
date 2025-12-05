@@ -31,7 +31,12 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+- [ ] **I. Content Consistency**: Terminology is consistent; technical details are accurate.
+- [ ] **II. Structured Formatting**: Content uses Docusaurus-compliant Markdown/MDX; code blocks are highlighted.
+- [ ] **III. Modularity**: Chapters are self-contained but connected; summaries/checkpoints included.
+- [ ] **IV. Practical Application Focus**: Chapters prepare for practical labs.
+- [ ] **V. AI-Native Learning**: AI-native learning methods are incorporated where possible.
+- [ ] **VI. Future-Proofing**: Content considers evolving hardware and AI models.
 
 ## Project Structure
 

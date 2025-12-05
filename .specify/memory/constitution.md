@@ -1,55 +1,70 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+---
+Sync Impact Report
+---
+- **Version Change**: None → 1.0.0
+- **Added Sections**:
+  - Core Principles
+  - Project Scope
+  - Tone and Style
+  - Governance
+- **Templates Requiring Updates**:
+  - ⚠ pending: .specify/templates/plan-template.md
+  - ⚠ pending: .specify/templates/spec-template.md
+  - ⚠ pending: .specify/templates/tasks-template.md
+  - ⚠ pending: .specify/templates/phr-template.prompt.md
+  - ⚠ pending: .specify/scripts/powershell/create-new-feature.ps1
+-->
+
+# Physical AI & Humanoid Robotics: AI Systems in the Physical World Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Content Consistency
+Ensure consistency in terminology across all chapters. All technical explanations must be accurate and based on current AI and robotics standards.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Structured Formatting
+Use structured formatting suitable for Docusaurus (Markdown/MDX). Include code snippets in proper syntax highlighting.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Modularity
+Make content modular: each chapter should be independently understandable but connected to module flow. Include checkpoints/summary at the end of each chapter. Use placeholders for images, diagrams, or tables which can later be added in Docusaurus.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Practical Application Focus
+Chapters should prepare the learner for practical labs (simulated or real robot experiments).
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. AI-Native Learning
+Incorporate AI-native learning methods where possible (interactive prompts, exercises, or agent-based guidance).
 
-### [PRINCIPLE_6_NAME]
+### VI. Future-Proofing
+Ensure chapters are future-proof, considering evolving robotics hardware and AI models.
 
+## Project Scope
 
-[PRINCIPLE__DESCRIPTION]
+**Project Purpose:**
+- Create a comprehensive textbook to teach Physical AI and Humanoid Robotics.
+- Bridge the gap between digital AI and embodied intelligence in physical robots.
+- Provide practical guidance for students to apply AI concepts using ROS 2, Gazebo, Unity, and NVIDIA Isaac Sim.
+- Enable integration of LLMs (GPT) for conversational robotics.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+**Audience:**
+- University-level students in AI, Robotics, and Engineering.
+- Professionals seeking hands-on experience with Physical AI.
+- Learners familiar with basic AI and programming concepts (Python recommended).
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+**Content Scope:**
+- 4 modules, each with 4 chapters (total 16 chapters)
+- Modules cover ROS 2, Digital Twin simulation, AI-Robot Brain, Vision-Language-Action.
+- Each chapter includes: theory, practical exercises, examples, diagrams, and code snippets where applicable.
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+## Tone and Style
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+- Clear, educational, and professional, with friendly and approachable explanations.
+- Use step-by-step instructions for practical sections.
+- Include real-world examples to connect theory with robotics applications.
+- Visual aids and diagrams should complement textual content.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+All content contributions must adhere to this constitution. Amendments require review and approval to ensure consistency across the project.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-06 | **Last Amended**: 2025-12-06
