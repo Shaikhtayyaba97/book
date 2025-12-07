@@ -68,3 +68,4 @@ Ensure chapters are future-proof, considering evolving robotics hardware and AI 
 All content contributions must adhere to this constitution. Amendments require review and approval to ensure consistency across the project.
 
 **Version**: 1.0.0 | **Ratified**: 2025-12-06 | **Last Amended**: 2025-12-06
+- All Git operations (branching, commits) are local only. Remote pushes to GitHub will be done manually after project completion.
