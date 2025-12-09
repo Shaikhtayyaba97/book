@@ -11,6 +11,7 @@ import styles from "./index.module.css";
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
+  // useBaseUrl ensures link works whether baseUrl is '/' or '/book/'
   const basicsUrl = useBaseUrl("/tutorial-basics/create-a-document");
   const extrasUrl = useBaseUrl("/tutorial-extras/manage-docs-versions");
   return (
