@@ -1,4 +1,4 @@
-﻿import {themes as prismThemes} from 'prism-react-renderer';
+import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
@@ -11,7 +11,7 @@ const config: Config = {
 
   // Production URL and baseUrl for GitHub Project Pages (repo = "book")
   url: 'https://shaikhtayyaba97.github.io',
-  baseUrl: '/',
+  baseUrl: '/book/',
 
   // GitHub pages config
   organizationName: 'Shaikhtayyaba97',
@@ -72,7 +72,7 @@ const config: Config = {
           items: [{ label: 'GitHub', href: 'https://github.com/Shaikhtayyaba97/book' }],
         },
       ],
-      copyright: `Copyright Â© ${new Date().getFullYear()} Shaikhtayyaba97.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Shaikhtayyaba97.`,
     },
 
     prism: {
@@ -90,5 +90,3 @@ const config: Config = {
 };
 
 export default config;
-
-
