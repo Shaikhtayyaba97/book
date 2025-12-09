@@ -1,4 +1,4 @@
-import type {ReactNode} from 'react';
+﻿import type {ReactNode} from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -18,11 +18,22 @@ function HomepageHeader() {
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
+
+          {/* Button to start Tutorial Basics */}
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            to="/book/tutorial-basics/create-a-document">
+            Start Basics
           </Link>
+
+          {/* Button to go to Tutorial Extras */}
+          <Link
+            className="button button--secondary button--lg"
+            to="/book/tutorial-extras/manage-docs-versions"
+            style={{marginLeft: '10px'}}>
+            Extras
+          </Link>
+
         </div>
       </div>
     </header>
@@ -33,8 +44,8 @@ export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`Welcome to ${siteConfig.title}`}
+      description="Docusaurus Tutorial Website">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

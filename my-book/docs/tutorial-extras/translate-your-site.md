@@ -71,7 +71,7 @@ export default {
 
 The locale dropdown now appears in your navbar:
 
-![Locale Dropdown](./img/localeDropdown.png)
+![Locale Dropdown](/img/localeDropdown.png)
 
 ## Build your localized site
 
@@ -86,3 +86,5 @@ Or build your site to include all the locales at once:
 ```bash
 npm run build
 ```
+
+
